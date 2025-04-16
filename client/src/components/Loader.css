@@ -1,0 +1,16 @@
+#loading {
+    display: flex;
+    justify-content: center;
+    color: #ff0000;
+  }
+  
+  .glowlo {
+    color: #9bff29;
+    text-shadow: 0px 0px 10px #51ff00;
+  }
+  
+  #loading  span {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  

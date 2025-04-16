@@ -1,0 +1,39 @@
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424 !important;
+  padding: 1rem;
+}
+#root{
+  padding: 1rem;
+  margin: 1rem;
+  overflow: hidden;
+  background-color: #0000006b !important;
+}
+#root::-webkit-scrollbar{
+  display: none;
+}
+.h-5 {
+  height: 5vh;
+  display: none ;
+}
+
+@media only screen and (max-width: 450px) {
+  body{
+    padding: .5rem;
+  }
+  #root{
+    padding: .5rem;
+    margin: 0;
+  }
+  .h-5{
+    display: block !important;
+  }
+  .type {
+    height: 15vh !important;
+  }
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0rem !important;
+} 
